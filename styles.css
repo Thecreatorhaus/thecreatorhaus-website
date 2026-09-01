@@ -575,13 +575,19 @@ p { line-height: 1.7; }
 
 /* â”€â”€â”€ MEET THE FOUNDERS (image section) â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .founders-visual {
-  background: var(--white);
-  padding: var(--space-xl) var(--gutter);
+  background: var(--cream);
+  padding: 7rem var(--gutter);
 }
 
 .founders-visual-inner {
-  max-width: 1100px;
+  max-width: 1000px;
   margin: 0 auto;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow:
+    0 2px 6px rgba(13, 13, 11, 0.04),
+    0 12px 32px rgba(13, 13, 11, 0.06),
+    0 28px 70px rgba(13, 13, 11, 0.07);
 }
 
 .founders-img {
@@ -1113,6 +1119,8 @@ p { line-height: 1.7; }
 
   .founders-visual { padding: var(--space-lg) var(--gutter); }
 
+.founders-visual-inner { border-radius: 8px; }
+
   .footer-grid {
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
@@ -1161,6 +1169,8 @@ p { line-height: 1.7; }
 
   /* Founders image */
   .founders-visual { padding: var(--space-md) var(--gutter); }
+
+.founders-visual-inner { border-radius: 6px; }
 
   /* Founding */
   .founding-grid { grid-template-columns: 1fr; max-width: 100%; }
