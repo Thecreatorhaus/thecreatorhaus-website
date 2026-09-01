@@ -1,9 +1,9 @@
-/* ═══════════════════════════════════════════════════════════
-   THE CREATOR HAUS — styles.css
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+   THE CREATOR HAUS â€” styles.css
    Premium UGC Marketing Agency
-   ═══════════════════════════════════════════════════════════ */
+   â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
 
-/* ─── CUSTOM PROPERTIES ─────────────────────────────────────── */
+/* â”€â”€â”€ CUSTOM PROPERTIES â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 :root {
   /* Palette */
   --cream:       #F6F1E8;
@@ -42,7 +42,7 @@
   --nav-h: 72px;
 }
 
-/* ─── RESET & BASE ───────────────────────────────────────────── */
+/* â”€â”€â”€ RESET & BASE â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
@@ -72,7 +72,7 @@ ul { list-style: none; }
 
 button { cursor: pointer; border: none; background: none; font: inherit; }
 
-/* ─── FOCUS STYLES (accessibility) ─────────────────────────── */
+/* â”€â”€â”€ FOCUS STYLES (accessibility) â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 :focus-visible {
   outline: 2px solid var(--accent);
   outline-offset: 3px;
@@ -84,7 +84,7 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
   outline-offset: 4px;
 }
 
-/* ─── TYPOGRAPHY ─────────────────────────────────────────────── */
+/* â”€â”€â”€ TYPOGRAPHY â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .h2 {
   font-family: var(--font-serif);
   font-size: clamp(2rem, 4vw, 3.25rem);
@@ -150,7 +150,7 @@ p { line-height: 1.7; }
 
 .label-light { color: var(--accent-lt); }
 
-/* ─── LAYOUT ─────────────────────────────────────────────────── */
+/* â”€â”€â”€ LAYOUT â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .container {
   max-width: var(--container);
   margin: 0 auto;
@@ -170,7 +170,7 @@ p { line-height: 1.7; }
   line-height: 1.7;
 }
 
-/* ─── BUTTONS ────────────────────────────────────────────────── */
+/* â”€â”€â”€ BUTTONS â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .btn {
   display: inline-flex;
   align-items: center;
@@ -236,7 +236,7 @@ p { line-height: 1.7; }
 .btn-large { padding: 1.1rem 2.25rem; font-size: 0.78rem; }
 .btn-small { padding: 0.6rem 1.25rem; font-size: 0.72rem; }
 
-/* ─── IMAGE PLACEHOLDERS ─────────────────────────────────────── */
+/* â”€â”€â”€ IMAGE PLACEHOLDERS â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .img-placeholder {
   background: var(--cream-mid);
   display: flex;
@@ -271,7 +271,7 @@ p { line-height: 1.7; }
   border: 1px solid var(--cream-deep);
 }
 
-/* ─── SCROLL REVEAL ──────────────────────────────────────────── */
+/* â”€â”€â”€ SCROLL REVEAL â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .reveal {
   opacity: 0;
   transform: translateY(28px);
@@ -286,7 +286,7 @@ p { line-height: 1.7; }
 .reveal-delay-1 { transition-delay: 0.12s; }
 .reveal-delay-2 { transition-delay: 0.24s; }
 
-/* ─── NAVIGATION ─────────────────────────────────────────────── */
+/* â”€â”€â”€ NAVIGATION â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .nav-header {
   position: fixed;
   top: 0;
@@ -376,9 +376,9 @@ p { line-height: 1.7; }
 .hamburger.open .ham-bar:nth-child(2) { opacity: 0; transform: scaleX(0); }
 .hamburger.open .ham-bar:nth-child(3) { transform: translateY(-6.5px) rotate(-45deg); }
 
-/* ─── MOBILE MENU ────────────────────────────────────────────── */
+/* â”€â”€â”€ MOBILE MENU â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 /*
- * Closed state: max-height:0, padding:0 top/bottom — no visible strip.
+ * Closed state: max-height:0, padding:0 top/bottom â€” no visible strip.
  * Open  state: max-height:520px, padding:2rem top / 2.5rem bottom.
  * Both max-height and padding animate for smooth open/close.
  */
@@ -420,7 +420,7 @@ p { line-height: 1.7; }
   gap: 0.75rem;
 }
 
-/* ─── HERO ───────────────────────────────────────────────────── */
+/* â”€â”€â”€ HERO â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .hero {
   min-height: 100svh;
   background: var(--cream);
@@ -573,7 +573,24 @@ p { line-height: 1.7; }
   100% { top: 100%; }
 }
 
-/* ─── INTRO / ABOUT ──────────────────────────────────────────── */
+/* â”€â”€â”€ MEET THE FOUNDERS (image section) â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+.founders-visual {
+  background: var(--white);
+  padding: var(--space-xl) var(--gutter);
+}
+
+.founders-visual-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.founders-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* â”€â”€â”€ INTRO / ABOUT â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .intro {
   padding: var(--space-xl) 0;
   background: var(--white);
@@ -592,7 +609,7 @@ p { line-height: 1.7; }
 
 .intro-copy p { color: var(--warm-gray); }
 
-/* Pillars — replaces old stat numbers */
+/* Pillars â€” replaces old stat numbers */
 .intro-pillars {
   display: flex;
   flex-direction: column;
@@ -621,7 +638,7 @@ p { line-height: 1.7; }
   line-height: 1.55;
 }
 
-/* ─── SPLIT SECTION ──────────────────────────────────────────── */
+/* â”€â”€â”€ SPLIT SECTION â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .split { display: grid; grid-template-columns: 1fr; }
 
 .split-panel {
@@ -660,7 +677,7 @@ p { line-height: 1.7; }
   min-height: 400px;
 }
 
-/* ─── NICHES ─────────────────────────────────────────────────── */
+/* â”€â”€â”€ NICHES â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .niches {
   padding: var(--space-xl) 0;
   background: var(--cream);
@@ -698,7 +715,7 @@ p { line-height: 1.7; }
   line-height: 1.25;
 }
 
-/* ─── SERVICES ───────────────────────────────────────────────── */
+/* â”€â”€â”€ SERVICES â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .services {
   padding: var(--space-xl) 0;
   background: var(--white);
@@ -741,7 +758,7 @@ p { line-height: 1.7; }
   line-height: 1.75;
 }
 
-/* ─── PROCESS / HOW IT WORKS ─────────────────────────────────── */
+/* â”€â”€â”€ PROCESS / HOW IT WORKS â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .process {
   padding: var(--space-xl) 0;
   background: var(--cream);
@@ -806,7 +823,7 @@ p { line-height: 1.7; }
   line-height: 1.7;
 }
 
-/* ─── WHY THE CREATOR HAUS ───────────────────────────────────── */
+/* â”€â”€â”€ WHY THE CREATOR HAUS â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .why {
   padding: var(--space-xl) 0;
   background: var(--white);
@@ -852,7 +869,7 @@ p { line-height: 1.7; }
   line-height: 1.7;
 }
 
-/* ─── FOUNDING PARTNERS ──────────────────────────────────────── */
+/* â”€â”€â”€ FOUNDING PARTNERS â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .founding {
   padding: var(--space-xl) 0;
   background: var(--cream);
@@ -904,7 +921,7 @@ p { line-height: 1.7; }
   margin-top: 0.5rem;
 }
 
-/* ─── FINAL CTA ──────────────────────────────────────────────── */
+/* â”€â”€â”€ FINAL CTA â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .cta-section {
   background: var(--charcoal);
   padding: var(--space-2xl) 0;
@@ -958,7 +975,7 @@ p { line-height: 1.7; }
 
 .cta-email-note a:hover { border-color: var(--accent-lt); }
 
-/* ─── FOOTER ─────────────────────────────────────────────────── */
+/* â”€â”€â”€ FOOTER â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .footer {
   background: var(--black);
   color: rgba(255, 255, 255, 0.5);
@@ -1022,7 +1039,7 @@ p { line-height: 1.7; }
 
 .footer-bottom p { font-size: 0.78rem; }
 
-/* ─── RESPONSIVE — TABLET (≤1024px) ─────────────────────────── */
+/* â”€â”€â”€ RESPONSIVE â€” TABLET (â‰¤1024px) â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 @media (max-width: 1024px) {
   :root { --space-xl: 5rem; }
 
@@ -1094,6 +1111,8 @@ p { line-height: 1.7; }
 
   .founding-grid { max-width: 100%; }
 
+  .founders-visual { padding: var(--space-lg) var(--gutter); }
+
   .footer-grid {
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
@@ -1102,7 +1121,7 @@ p { line-height: 1.7; }
   .footer-brand { grid-column: 1 / -1; }
 }
 
-/* ─── RESPONSIVE — MOBILE (≤768px) ──────────────────────────── */
+/* â”€â”€â”€ RESPONSIVE â€” MOBILE (â‰¤768px) â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 @media (max-width: 768px) {
   :root {
     --space-xl: 4rem;
@@ -1140,6 +1159,9 @@ p { line-height: 1.7; }
   /* Why */
   .why-features { grid-template-columns: 1fr; gap: 2rem; }
 
+  /* Founders image */
+  .founders-visual { padding: var(--space-md) var(--gutter); }
+
   /* Founding */
   .founding-grid { grid-template-columns: 1fr; max-width: 100%; }
 
@@ -1154,7 +1176,7 @@ p { line-height: 1.7; }
   .tab-btn { padding: 0.75rem 1.25rem; }
 }
 
-/* ─── RESPONSIVE — SMALL MOBILE (≤480px) ────────────────────── */
+/* â”€â”€â”€ RESPONSIVE â€” SMALL MOBILE (â‰¤480px) â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 @media (max-width: 480px) {
   .niches-grid { grid-template-columns: 1fr; }
 
@@ -1170,7 +1192,7 @@ p { line-height: 1.7; }
   .tab-btn { font-size: 0.72rem; }
 }
 
-/* ─── REDUCED MOTION ─────────────────────────────────────────── */
+/* â”€â”€â”€ REDUCED MOTION â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 @media (prefers-reduced-motion: reduce) {
   .reveal {
     opacity: 1;
