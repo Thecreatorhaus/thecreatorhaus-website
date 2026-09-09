@@ -721,6 +721,9 @@ p { line-height: 1.7; }
 
 .split-content .btn {
   align-self: flex-start;
+  width: fit-content;
+  max-width: 100%;
+  padding: 1rem 1.75rem;
 }
 
 .split-visual {
