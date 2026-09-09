@@ -813,8 +813,12 @@ p { line-height: 1.7; }
 
 /* â”€â”€â”€ SERVICES â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .services {
-  padding: var(--space-xl) 0;
+  padding: 5rem 0;
   background: var(--white);
+}
+
+.services .section-header {
+  margin-bottom: 3.25rem;
 }
 
 .services-grid {
@@ -827,31 +831,40 @@ p { line-height: 1.7; }
 
 .service-card {
   background: var(--white);
-  padding: 2.75rem 2.25rem;
-  transition: background 0.3s;
+  min-height: 260px;
+  padding: 2.4rem 2.2rem;
+  transition:
+    background 0.3s var(--ease-out),
+    transform 0.3s var(--ease-out),
+    box-shadow 0.3s var(--ease-out);
 }
 
-.service-card:hover { background: var(--cream); }
+.service-card:hover {
+  background: var(--cream);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px rgba(13, 13, 11, 0.04);
+  z-index: 1;
+}
 
 .service-num {
   display: block;
   font-family: var(--font-serif);
-  font-size: 0.8rem;
-  font-weight: 400;
-  color: var(--beige);
-  letter-spacing: 0.05em;
-  margin-bottom: 1.25rem;
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: var(--accent);
+  letter-spacing: 0.06em;
+  margin-bottom: 1.15rem;
 }
 
 .service-card h3 {
   color: var(--charcoal);
-  margin-bottom: 0.85rem;
+  margin-bottom: 0.8rem;
 }
 
 .service-card p {
   color: var(--warm-gray);
-  font-size: 0.92rem;
-  line-height: 1.75;
+  font-size: 0.9rem;
+  line-height: 1.68;
 }
 
 /* â”€â”€â”€ PROCESS / HOW IT WORKS â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
