@@ -667,7 +667,7 @@ p { line-height: 1.7; }
 .split-panel {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  min-height: 620px;
+  min-height: 540px;
 }
 
 .split-dark {
@@ -693,7 +693,7 @@ p { line-height: 1.7; }
 }
 
 .split-content {
-  padding: clamp(4rem, 7vw, 7rem);
+  padding: clamp(3.25rem, 5vw, 5rem);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -705,18 +705,18 @@ p { line-height: 1.7; }
 }
 
 .split-content .h2 {
-  font-size: clamp(2.5rem, 4.4vw, 4.4rem);
+  font-size: clamp(2.4rem, 4vw, 4rem);
   line-height: 1.08;
-  margin-bottom: 1.6rem;
+  margin-bottom: 1.5rem;
   max-width: 600px;
 }
 
 .split-content > p:not(.label) {
   max-width: 530px;
   font-size: 1rem;
-  line-height: 1.8;
+  line-height: 1.75;
   color: var(--warm-gray);
-  margin-bottom: 2.25rem;
+  margin-bottom: 1.9rem;
 }
 
 .split-content .btn {
@@ -731,19 +731,19 @@ p { line-height: 1.7; }
 
 .split-visual {
   overflow: hidden;
-  min-height: 620px;
+  min-height: 540px;
 }
 
 .split-placeholder {
   width: 100%;
   height: 100%;
-  min-height: 620px;
+  min-height: 540px;
 }
 
 .split-image {
   width: 100%;
   height: 100%;
-  min-height: 620px;
+  min-height: 540px;
   object-fit: cover;
   display: block;
 }
