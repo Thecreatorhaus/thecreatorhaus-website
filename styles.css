@@ -721,9 +721,12 @@ p { line-height: 1.7; }
 
 .split-content .btn {
   align-self: flex-start;
-  width: fit-content;
+  display: inline-flex;
+  width: max-content !important;
   max-width: 100%;
+  min-width: 250px;
   padding: 1rem 1.75rem;
+  justify-content: center;
 }
 
 .split-visual {
@@ -1250,6 +1253,11 @@ p { line-height: 1.7; }
   .split-content {
     padding: var(--space-md) var(--gutter);
     gap: 1.25rem;
+  }
+
+  .split-content .btn {
+    width: 100% !important;
+    min-width: 0;
   }
 
   .footer-grid { grid-template-columns: 1fr; }
