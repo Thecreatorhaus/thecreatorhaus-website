@@ -1423,3 +1423,68 @@ p { line-height: 1.7; }
   }
 }
 
+/* ─── FINAL 10/10 BRANDS + CREATORS DESKTOP SIZE ───────────────── */
+@media (min-width: 1025px) {
+  .split-panel {
+    height: 420px !important;
+    min-height: 420px !important;
+    max-height: 420px !important;
+    overflow: hidden !important;
+  }
+
+  .split-content {
+    height: 420px !important;
+    min-height: 0 !important;
+    padding: 2.15rem 3rem !important;
+    overflow: hidden !important;
+    justify-content: center !important;
+  }
+
+  .split-visual {
+    height: 420px !important;
+    min-height: 420px !important;
+    max-height: 420px !important;
+    overflow: hidden !important;
+  }
+
+  .split-image {
+    width: 100% !important;
+    height: 420px !important;
+    min-height: 420px !important;
+    max-height: 420px !important;
+    object-fit: cover !important;
+    display: block !important;
+  }
+
+  .split-content .label {
+    margin-bottom: 1rem !important;
+  }
+
+  .split-content .h2 {
+    font-size: clamp(2.25rem, 3vw, 3.15rem) !important;
+    line-height: 1.06 !important;
+    margin-bottom: 1rem !important;
+    max-width: 610px !important;
+  }
+
+  .split-content > p:not(.label) {
+    max-width: 560px !important;
+    font-size: 0.94rem !important;
+    line-height: 1.62 !important;
+    margin-bottom: 1.35rem !important;
+  }
+
+  .split-content .btn {
+    padding: 0.9rem 1.65rem !important;
+    min-width: 250px !important;
+  }
+
+  .split-dark .split-image {
+    object-position: center 48% !important;
+  }
+
+  #for-creators .split-image {
+    object-position: center 28% !important;
+  }
+}
+
