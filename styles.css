@@ -1312,3 +1312,57 @@ p { line-height: 1.7; }
     transition: none;
   }
 }
+
+/* ─── FINAL DESKTOP SPLIT SIZE OVERRIDE ───────────────────────────
+   Keeps Brands / Creators compact enough to view without a long scroll.
+   Portrait source photos are intentionally cropped with object-fit: cover.
+------------------------------------------------------------------ */
+@media (min-width: 1025px) {
+  .split-panel {
+    height: clamp(340px, 44vh, 400px) !important;
+    min-height: 0 !important;
+  }
+
+  .split-visual {
+    height: 100% !important;
+    min-height: 0 !important;
+  }
+
+  .split-image {
+    width: 100% !important;
+    height: 100% !important;
+    min-height: 0 !important;
+    object-fit: cover !important;
+    display: block;
+  }
+
+  .split-content {
+    height: 100%;
+    padding: 2rem clamp(2.5rem, 4vw, 4rem);
+  }
+
+  .split-content .label {
+    margin-bottom: 1rem;
+  }
+
+  .split-content .h2 {
+    font-size: clamp(2.25rem, 3.2vw, 3.25rem);
+    line-height: 1.06;
+    margin-bottom: 1rem;
+  }
+
+  .split-content > p:not(.label) {
+    font-size: 0.92rem;
+    line-height: 1.6;
+    margin-bottom: 1.25rem;
+  }
+
+  .split-content .btn {
+    padding: 0.85rem 1.6rem;
+  }
+
+  #for-creators .split-image {
+    object-position: center 32%;
+  }
+}
+
