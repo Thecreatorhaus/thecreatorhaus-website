@@ -667,7 +667,7 @@ p { line-height: 1.7; }
 .split-panel {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  height: 560px;
+  height: 460px;
   min-height: 0;
 }
 
@@ -694,7 +694,7 @@ p { line-height: 1.7; }
 }
 
 .split-content {
-  padding: clamp(3.25rem, 5vw, 5rem);
+  padding: clamp(2.5rem, 4vw, 4rem);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -706,18 +706,18 @@ p { line-height: 1.7; }
 }
 
 .split-content .h2 {
-  font-size: clamp(2.4rem, 4vw, 4rem);
+  font-size: clamp(2.2rem, 3.6vw, 3.6rem);
   line-height: 1.08;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.25rem;
   max-width: 600px;
 }
 
 .split-content > p:not(.label) {
   max-width: 530px;
-  font-size: 1rem;
-  line-height: 1.75;
+  font-size: 0.96rem;
+  line-height: 1.7;
   color: var(--warm-gray);
-  margin-bottom: 1.9rem;
+  margin-bottom: 1.5rem;
 }
 
 .split-content .btn {
@@ -732,7 +732,7 @@ p { line-height: 1.7; }
 
 .split-visual {
   overflow: hidden;
-  height: 560px;
+  height: 460px;
   min-height: 0;
 }
 
@@ -744,7 +744,7 @@ p { line-height: 1.7; }
 
 .split-image {
   width: 100%;
-  height: 560px;
+  height: 460px;
   min-height: 0;
   object-fit: cover;
   display: block;
