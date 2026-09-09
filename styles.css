@@ -605,12 +605,29 @@ p { line-height: 1.7; }
 .intro-grid {
   display: grid;
   grid-template-columns: 1.25fr 1fr;
-  gap: 5rem;
+  gap: 5.5rem;
   align-items: center;
 }
 
+.intro-copy {
+  max-width: 690px;
+}
+
+.intro-copy .label {
+  color: var(--accent);
+}
+
 .intro-copy .h2 {
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.intro-copy .body-lg {
+  max-width: 640px;
+  margin-bottom: 1rem;
+}
+
+.intro-copy .body-lg:last-child {
+  margin-bottom: 0;
 }
 
 .intro-copy p { color: var(--warm-gray); }
@@ -619,8 +636,8 @@ p { line-height: 1.7; }
 .intro-pillars {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
-  padding-left: 3rem;
+  gap: 2.35rem;
+  padding-left: 3.25rem;
   border-left: 1px solid var(--cream-mid);
 }
 
