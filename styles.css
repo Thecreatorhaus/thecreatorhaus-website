@@ -1366,3 +1366,60 @@ p { line-height: 1.7; }
   }
 }
 
+/* ─── COMPACT SPLIT PANELS — CACHE-BUSTED FINAL OVERRIDE ───────── */
+@media (min-width: 1025px) {
+  .split-panel {
+    height: 360px !important;
+    min-height: 360px !important;
+    max-height: 360px !important;
+    overflow: hidden !important;
+  }
+
+  .split-content {
+    height: 360px !important;
+    min-height: 0 !important;
+    padding: 1.6rem 2.5rem !important;
+    overflow: hidden !important;
+  }
+
+  .split-visual {
+    height: 360px !important;
+    min-height: 360px !important;
+    max-height: 360px !important;
+    overflow: hidden !important;
+  }
+
+  .split-image {
+    width: 100% !important;
+    height: 360px !important;
+    min-height: 360px !important;
+    max-height: 360px !important;
+    object-fit: cover !important;
+    display: block !important;
+  }
+
+  .split-content .label {
+    margin-bottom: 0.8rem !important;
+  }
+
+  .split-content .h2 {
+    font-size: clamp(2rem, 2.7vw, 2.9rem) !important;
+    line-height: 1.05 !important;
+    margin-bottom: 0.8rem !important;
+  }
+
+  .split-content > p:not(.label) {
+    font-size: 0.88rem !important;
+    line-height: 1.55 !important;
+    margin-bottom: 1rem !important;
+  }
+
+  .split-content .btn {
+    padding: 0.75rem 1.4rem !important;
+  }
+
+  #for-creators .split-image {
+    object-position: center 30% !important;
+  }
+}
+
